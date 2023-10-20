@@ -2,185 +2,156 @@
 Join Hacktoberfest 2023: Contribute to open source, learn, and earn rewards. We welcome beginners. Explore issues ,add your code, fork, code, and make a global impact. Let's collaborate!
 
 # HacktoberFest 2023 `GOOD FIRST` Pull Request - `Digital Rewards`🧑🏻‍💻😄
+# HacktoberFest2023
+## Star and fork this repository to start contributing !!
+Make your first PR! Add your profile, a blog, or any program under any language (hello-world program to anything) or update the existing one. Just make sure to add the file under the correct directory. Happy open source contributing!
 
-![HacktoberFest 2023](.github/logo.png)
+https://hacktoberfest.digitalocean.com/
+
+## How to contribute
+Submit your pull request here for HacktoberFest2023 in any language you prefer, if language folder not present, create one as a part of it, after script add your name and GitHub profile into Contributors.md file.
+
+Hacktoberfest is a month long virtual festival event to celebrate open source contributions presented by DigitalOcean and DEV. It is the easiest way to get into open source!
+
+# Event details
+Hacktoberfest® is open to everyone in our global community. Whether you’re a developer, student learning to code, event host, or company of any size, you can help drive growth of open source and make positive contributions to an ever-growing community. All backgrounds and skill levels are encouraged to complete the challenge.
+
+Hacktoberfest is open to everyone in our global community!
+Pull requests can be made in any GitHub-hosted repositories/projects.
+Sign up anytime between October 1 and October 31.
+
+# Rules
+To qualify for the official limited edition Hacktoberfest shirt, you must register and make four pull requests (PRs) between October 1-31 (in any time zone). PRs can be made to any public repo on GitHub, not only the ones with issues labeled Hacktoberfest. If a maintainer reports your pull request as spam or behavior not in line with the project’s code of conduct, you will be ineligible to participate. This year, the first 70,000 participants who successfully complete the challenge will earn a T-shirt.
+
+## Getting Started
+
+* Add your name to the CONTRIBUTORS.md file using following model
+```markdown
+Name: [YOUR NAME](Github Link)
+Place: city you belong to add your country flag 
+About: Short Intro (Optional)
+```
+## Instructions:
+
+*Make sure you have a GitHub account. In case you don't have one, you can create your account by visiting https://github.com/ and clicking on ``Sign up`` option at the top right corner.*
+
+### 1. Register yourself for Hacktoberfest
+###### Link to register: https://hacktoberfest.digitalocean.com/
+Click on "Start Hacking" and add your GitHub account.
+
+![Screenshot-HFST](https://github.com/bajajvinamr/HacktoberFest2020/blob/master/1.png)
 
 
+### 2. Star and Fork this Repository
+###### You can star and fork this repository on GitHub by navigating at the top of this repository.
 
-# Contributors to Hacktoberfest 2023🤩 🥳
+GitHub repository URLs will reference both the username associated with the owner of the repository, as well as the repository name. For example, acmbvp is the owner of the Hacktoberfest repository, so the GitHub URL for this project is:
+
+https://github.com/SuriyaaVijay/HacktoberFest2023
+
+When you’re on the main page of a repository, you’ll see a button to "Star" and “Fork” the repository on the upper right-hand side of the page, underneath your user icon.
+
+### 3. Clone the Repository
+
+To make your own local copy of the repository you would like to contribute to, let’s first open up a terminal window.
+
+We’ll use the `git clone`  command along with the URL that points to your fork of the repository.
+
+This URL will be similar to the URL above, except now it will end with `.git.` In the cloud_haiku example above, the URL will look like this:
+https://github.com/your-username/HacktoberFest2023.git
+
+You can alternatively copy the URL by using the green “Clone or download” button from your repository page that you just forked from the original repository page. Once you click the button, you’ll be able to copy the URL by clicking the binder button next to the URL:
+
+Once we have the URL, we’re ready to clone the repository. To do this, we’ll combine the git clone command with the repository URL from the command line in a terminal window:
+
+`git clone https://github.com/your-username/HacktoberFest2023.git`
+
+### 4. Create a New Branch
+
+To create your branch, from your terminal window, change your directory so that you are working in the directory of the repository. Be sure to use the actual name of the repository (i.e. Hacktoberfest) to switch into that directory.
+
+#####    `cd Hacktoberfest`
+
+Now, we’ll create our new branch with the git branch command. Make sure you name it descriptively so that others working on the project understand what you are working on.
+
+![screenshot 154](https://github.com/bajajvinamr/HacktoberFest2020/blob/master/6.png)
+
+##### `git branch new-branch`
+
+Now that our new branch is created, we can switch to make sure that we are working on that branch by using the git checkout command:
+
+##### ` git checkout new-branch `
+
+Once you enter the git `checkout` command, you will receive the following output:
+
+######  `Output:`
+#####  `Switched to branch 'new-branch' `
+
+
+At this point, you can now modify existing files or add new files to the project on your own branch.
+
+#### Make Changes Locally
+
+Once you have modified existing files or added new files to the project, you can add them to your local repository, which you can do with the git add command. Let’s add the -A flag to add all changes that we have made:
+
+##### ` git add -A ` or ` git add . `
+
+Next, we’ll want to record the changes that we made to the repository with the git commit command.
+
+*The commit message is an important aspect of your code contribution; it helps the other contributors fully understand the change you have made, why you made it, and how significant it is. Additionally, commit messages provide a historical record of the changes for the project at large, helping future contributors along the way.*
+
+
+If you have a very short message, you can record that with the -m flag and the message in quotes:
+
+###### ` Example: `
+##### ` git commit -m "Updated Readme.md" `
+
+###### At this point you can use the git push command to push the changes to the current branch of your forked repository:
+###### ` Example:`
+##### ` git push --set-upstream origin new-branch `
+
+### 5. Update Local Repository
+
+*While working on a project alongside other contributors, it is important for you to keep your local repository up-to-date with the project as you don’t want to make a pull request for code that will cause conflicts. To keep your local copy of the code base updated, you’ll need to sync changes.*
+
+We’ll first go over configuring a remote for the fork, then syncing the fork.
+
+### 6. Configure a Remote for the Fork
+
+Next up, you’ll have to specify a new remote upstream repository for us to sync with the fork. This will be the original repository that you forked from. you’ll have to do this with the git remote add command.
+
+##### ` git remote add upstream https://github.com/SuriyaaVijay/HacktoberFest2023.git `
+
+In this example, // upstream // is the shortname we have supplied for the remote repository since in terms of Git, “upstream” refers to the repository that you cloned from. If you want to add a remote pointer to the repository of a collaborator, you may want to provide that collaborator’s username or a shortened nickname for the shortname.
+
+### 7. Sync the Fork
+
+Once you have configured a remote that references the upstream and original repository on GitHub, you are ready to sync your fork of the repository to keep it up-to-date.
+To sync your fork, from the directory of your local repository in a terminal window, you’ll have to use the // git fetch // command to fetch the branches along with their respective commits from the upstream repository. Since you used the shortname “upstream” to refer to the upstream repository, you’ll have to pass that to the command:
+
+##### ` git fetch upstream `
+
+Switch to the local master branch of our repository:
+
+##### ` git checkout master `
+
+Now merge any changes that were made in the original repository’s master branch, that you will access through your local upstream/master branch, with your local master branch:
+
+##### ` git merge upstream/master `
+
+### 8. Create Pull Request
+
+At this point, you are ready to make a pull request to the original repository.
+
+Navigate to your forked repository, and press the “New pull request” button on your left-hand side of your Repo page.
+
+## Contributors of `Hacktoberfest 2023`
 
 <div align="center">
 
-<a href="https://github.com/Ananyasingh2002/Hacktoberfest2023/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Ananyasingh2002/Hacktoberfest2023" />
+<a href="https://github.com/SuriyaaVijay/HacktoberFest2023/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=SuriyaaVijay/Hacktoberfest2023" />
 </a>
   
   </div>
-
-
-
-
-
-
-# The Open Source Adventure Awaits!  💪
-
- HacktoberFest is your gateway to the vibrant world of open source. This year marks the 10th anniversary of Hacktoberfest, and we’re calling on your support! Join us on this epic journey and earn yourself an exclusive digital reward kit from DigitalOcean and our sponsors and partners..
-
---> Sign up for Hacktoberfest 2023, and contribute four pull requests (PRs) between October 1st-31st to claim your stash of cool SWAGS  🤝 🔥.
-
-# [Visit this repository to contribute to a new project for Hacktoberfest 2023](https://github.com/Ananyasingh2002/OTP-Verification)
-
-## [Click to Participate](https://hacktoberfest.com/participation/)
-
-# Task 1.0
-
-Welcome to our Hacktoberfest 2023 contributing website! We're excited to have you on board. Follow the steps below to contribute and add your name, picture, LinkedIn profile, and GitHub profile to our contributors' list.
-
-## INSTRUCTIONS - Get Ready for the Adventure 
-- Fork this Repository using the button at the top on right corner.
-
-  ![img_fork_1](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/bcb92dfb-0c7f-4f6f-976c-05acbfdcd3f2)
-
-- Clone your forked repository to your pc `git clone https://github.com/Ananyasingh2002/Hacktoberfest2023.git`
-
-  ![clone_2](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/a61a60a1-7c42-484d-a38c-03db0e372aa0)
-
-- Carve your own path with a new branch for your modifications (ie. `git branch new-user` and check it out `git checkout new-user` or simply do `git checkout -b new-user`)
-
-- Leave your mark by adding your profile image to `images/` (drag and drop or upload with commands or by your name).
-
-- Chronicle your legend by crafting your profile data in `participant/` (add your information here)
-
-- Blaze your trail with these commands: `git add -A` or `git add .`, `git commit -m "added myself"`, and `git push origin new-explorer`
-
-- Create a pull request
-
-- Star this repository
-
-# How To Make Your First Pull Request
-
-## 1. Add your profile picture to the folder
-
-Add a profile picture of your choice in `images/`. Accepted files are **png** and **jpg**, Ex.
-
-```
-images/<YOUR-USERNAME>.png
-```
-
-## 2. Add your profile information
-
-Create a markdown file in your folder following the convention `participant/<YOUR-USERNAME>.md`. Ex.
-
-```
-participant/<YOUR-USERNAME>.md
-```
-
-Copy the next template into your file, delete the boilerplate data and fill the information with yours.
-
-```
----
-name: YOURNAME
-institution/company: INSTITUTION_NAME
-github:USERNAME
----
-```
-
-## 3. Wait for Pull Request to merge
-
-## 4. Here is a quick reference guide for GitHub: [GitHub Guide](https://github.com/git-guides)
-
-## 5. Celebrate - you've done your first pull request!!
-
-- Aim to make more than 4 pull requests.
-- Imagine you've only made 4 pull requests to different projects, but one of those projects isn't part of the Hacktoberfest event.
-- In that case, your pull request won't be counted, leaving you with just 3 valid ones if those projects aren't excluded either.
-- To ensure your success, I recommend making a pull request to your own repo, as long as it has the Hacktoberfest topic.
-
-# Task 2.0
-
-## Hacktoberfest 2023 Contribution Guide
-
-Welcome to our Hacktoberfest 2023 contributing website! We're excited to have you on board. Follow the steps below to contribute and add your name, picture, LinkedIn profile, and GitHub profile to our contributors' list.
-
-## Here is the link to the website: https://ananyasingh2002.github.io/Hacktoberfest2023/
-
-## INSTRUCTIONS - Get Ready for the Adventure 
-
-- Fork this repository to your GitHub account by clicking the "Fork" button at the top right of this page.
-  ![img_fork_1](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/bcb92dfb-0c7f-4f6f-976c-05acbfdcd3f2)
-
-- Clone your forked repository to your local machine. Replace `<your-username>` with your GitHub username:
-
-  ```bash
-  git clone https://github.com/Ananyasingh2002/Hacktoberfest2023.git
-  ```
-
-- Navigate to the project directory: `cd Hacktoberfest2023`
-
-- Create a new branch for your changes. Replace <branch-name> with a descriptive branch name: `git checkout -b <branch-name>`
-
-- Leave your mark by adding your profile image to `assets/images` (drag and drop or upload with commands or by your name).
-
-- Chronicle your legend by crafting your profile data in `index.html and CSS(add your image address)` (add your information here)
-
-- Blaze your trail with these commands: `git add -A` or `git add .`, `git commit -m "added myself"`, and `git push origin new-explorer`
-
-- Create a pull request
-
-- Star this repository
-
-# How To Make Your First Pull Request
-
-## 1. Add your profile picture to the folder
-
-Add a picture picture of your choice in `assets/images/<YOUR-USERNAME>.png`. Accepted files are **png** and **jpg**, Ex.
-
-```
-assets/images/<YOUR-USERNAME>.png
-```
-
-## 2. Now, please navigate to the `index.html` file, open it, read the instructions in the code, copy down the line and add your information.
-
-![2](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/7177298f-d0d8-468a-bd1e-44b0f89fddb1)
-
-Enter your details here:
-
-![3](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/6825937d-e0fb-461d-857c-95febd458a16)
-
-## 3. Change the class name below
-
-```
-<div class="card_img card1">
-   <div class="plus"></div>
-</div>
-```
-
-![2](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/3c8cbf00-ae16-47fe-80f2-d8644d9cf88c)
-
-So, essentially, you are instructing the reader to change the class name of the first <div> element to include a number that corresponds to their specific use case. For instance, if their number is 2, the modified code would look like this:
-
-```
-<div class="card_img card2">
-   <div class="plus"></div>
-</div>
-```
-
-![3](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/b971fdd7-574c-4661-888c-3ddb0f22d2e3)
-
-## 4. Now, please navigate to the `style.css` file, read the instructions, and add the class `.card(as your number is)` along with the image path.
-
-`url('assets/images/<YOUR-USERNAME>.png')`
-
-![1](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/b4d96181-a871-420e-a3e4-e645c3d92db7)
-
-## 5. Wait for Pull Request to merge
-
-## 6. Celebrate - you've done your first pull request!!
-
-# + Follow Me: Swift Approval of Your Quest 
-
-To expedite approval of your pull request, (`Follow Me`)
-
-<tr><td align="center"><a href="https://github.com/Ananyasingh2002"><kbd><img src=".github/ananya.jpg" width="100px;" alt=""/></kbd><br /><sub><b>Ananya singh</b></sub></a><br /></td>
-
-</tr>
+# Hurray! You just got closer to completing your Hacktoberfest challenge.
