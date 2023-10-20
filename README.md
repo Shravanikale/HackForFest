@@ -47,7 +47,7 @@ Click on "Start Hacking" and add your GitHub account.
 
 GitHub repository URLs will reference both the username associated with the owner of the repository, as well as the repository name. For example, acmbvp is the owner of the Hacktoberfest repository, so the GitHub URL for this project is:
 
-https://github.com/SuriyaaVijay/HacktoberFest2023
+https://github.com/Shravanikale/HackForFest
 
 When you’re on the main page of a repository, you’ll see a button to "Star" and “Fork” the repository on the upper right-hand side of the page, underneath your user icon.
 
