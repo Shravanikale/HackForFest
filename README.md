@@ -1,7 +1,7 @@
 # HackForFest
 Join Hacktoberfest 2023: Contribute to open source, learn, and earn rewards. We welcome beginners. Explore issues ,add your code, fork, code, and make a global impact. Let's collaborate!
 
-# HacktoberFest 2023 `GOOD FIRST` Pull Request - `Digital Rewards`🧑🏻‍💻😄
+# HacktoberFest 2023 GOOD FIRST Pull Request - Digital Rewards🧑🏻‍💻😄
 # HacktoberFest2023
 ## Star and fork this repository to start contributing !!
 Make your first PR! Add your profile, a blog, or any program under any language (hello-world program to anything) or update the existing one. Just make sure to add the file under the correct directory. Happy open source contributing!
@@ -154,4 +154,4 @@ Navigate to your forked repository, and press the “New pull request” button 
 </a>
   
   </div>
-# Hurray! You just got closer to completing your Hacktoberfest challenge.
+# Hurray! You just got closer to completing your Hacktoberfest challenge.😃🥳
